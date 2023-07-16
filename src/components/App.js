@@ -21,7 +21,7 @@ export default function App() {
             </div>
             <label> {theme === "light" ? "Light Mode" : "Dark Mode"}</label>
             <input type="checkbox" id="switch" />
-            <label htmlFor="switch" className="label" onClick={handleToggleTheme}>
+            <label htmlFor="switch" className="label" onClick={handleToggle}>
                 Toggle
             </label>
         </div>
